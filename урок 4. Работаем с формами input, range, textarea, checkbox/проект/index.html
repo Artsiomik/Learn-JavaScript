@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Document</title>
+</head>
+
+<body>
+	<div class="container">
+		<h1 class="text-center">Работаем с формами: input, range, checkbox, textarea</h1>
+
+
+		<!-- <input type="password" class="one"> -->
+		<!-- <input type="color" class="one"> -->
+		<!-- <input type="date" class="one"> -->
+		<!-- <input type="range" class="one" min="0" max="200" value="30"> -->
+		<!-- если min и max не заданы то по умолчанию они принимают значения от 0 до 100 соответсвенно, valye- обозначили на какой позиции изначально находится ползунок -->
+		<!-- <span>30</span> -->
+		<!--добавив <span> и прописав значение на котором сейчас находиться ползунок выводим значение input на страницу-->
+		<!-- <button>Push</button> -->
+		<hr>
+		<input type="checkbox" id="i2" value="hello"><label for="i2">click me</label>
+		<!-- для свойства for прописываем айдишник к тоторору будет оноситься label, это нужно для того что если мы кликаем по названию которое присвоено lable, все равно срабатывал клик для чекбокса -->
+		<button id="btn-1">Push</button>
+
+		<hr>
+		<form action="">
+			<textarea name="" id="two" cols="30" rows="10" name="n1"></textarea>
+			<input type="text" id="three" name="n2">
+			<button id="btn-2">Push</button>
+		</form>
+	</div>
+	<script src="js/script.js"></script>
+</body>
+
+</html>
